@@ -3,9 +3,13 @@
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ![GitHub license](https://img.shields.io/badge/Made%20by-%40aafernands-orange)
 
+Deployed Aplication:
+[Note Taker App](https://my-note-takerapp.herokuapp.com/)
+
+---
+
 | Table of Contents             |
 | ----------------------------- |
-| [Installation](#Installation) |
 | [Usage](#Usage)               |
 | [Tests](#Tests)               |
 | [Questions](#Questions)       |
@@ -13,9 +17,6 @@
 | [License](#License)           |
 
 ---
-
-Deployed Aplication:
-[Note Taker App](https://my-note-takerapp.herokuapp.com/)
 
 ## Project Description
 
@@ -37,6 +38,28 @@ Instructions and examples for use:
 
 ![GitHub license](https://img.shields.io/badge/tests-100%25-success)
 
+## Summary
+
+Steps taken to complete this assigmnet:
+
+- Frontend: 
+    - Previously created including all HTML sctructure and styling using bootstrap;
+- Backend:
+    - Created HTML routes;
+    - A `data.json` file was created to store and retrieve notes using `fs` module;
+    - Created API routes (GET, POST abd DELETE);
+- All links/buttons on this website works properly;
+- Some of the resources used on this project was:
+
+  > [Bootstrap](https://getbootstrap.com/)<br />
+  > [W3 Schools](https://www.w3schools.com/)<br />
+  > [Express](https://www.npmjs.com/package/express)<br />
+  > [Heroku](https://www.w3schools.com/)<br />
+
+- The final version was pushed to homework repository at
+  [github](Homework2_ResponsivePortifolio/aafernands.github.io/).
+  [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+
 ## Questions?
 
 ![alt text](./public/assets/images/alex.png)
@@ -46,23 +69,6 @@ Feel free to contact me for any question. Id be more then happy to help.
 [Github](https://github.com/aafernands)
 
 [Email address](https://github.com/alexfernands@outlook.com)
-
-## Summary
-
-Steps taken to complete this assigmnet:
-
-- Created a css file for each website page;
-- All links/buttons on this website works properly;
-- Some of the resources used on this projectwas:
-
-  [Bootstrap](https://getbootstrap.com/)<br />
-  [W3 Schools](https://www.w3schools.com/)<br />
-  [Express](https://www.npmjs.com/package/express)<br />
-  [Heroku](https://www.w3schools.com/)<br />
-
-- The final version was pushed to homework repository at
-  [github](Homework2_ResponsivePortifolio/aafernands.github.io/).
-  [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
 
 ## License
 
