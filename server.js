@@ -11,7 +11,8 @@ const PORT = process.env.PORT || 8080;
 
 // expose the static  asset folder
 app.use(express.static("public"));
-app.use(bodyParser.json());
+app.use(bodyParser.urlencoded()); // parse body for form data type
+app.use(bodyParser.json()); // parse body for json data type
 
 // Routes
 app.get("/", function (req, res) {
