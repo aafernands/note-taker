@@ -52,10 +52,10 @@ Steps taken to complete this assigment:
 - All links/buttons on this website works properly;
 - Some of the resources used on this project was:
 
-> [Bootstrap](https://getbootstrap.com/)<br /> > [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br /> > [Heroku](https://www.w3schools.com/)<br />
+> [Bootstrap](https://getbootstrap.com/)<br />  [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br />  [Heroku](https://www.w3schools.com/)<br />
 
 - The final version was pushed to homework repository at:
-> [github](https://github.com/aafernands)<br> > [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+> [github](https://github.com/aafernands)<br>  [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
 
 ## Questions?
 
