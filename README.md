@@ -1,1 +1,72 @@
-# note-taker
+# Note Taker App
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+![GitHub license](https://img.shields.io/badge/Made%20by-%40aafernands-orange)
+
+| Table of Contents             |
+| ----------------------------- |
+| [Installation](#Installation) |
+| [Usage](#Usage)               |
+| [Tests](#Tests)               |
+| [Questions](#Questions)       |
+| [Summary](#Summary)           |
+| [License](#License)           |
+
+---
+
+Deployed Aplication:
+[Note Taker App](https://my-note-takerapp.herokuapp.com/)
+
+## Project Description
+
+---
+
+This application can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+
+## Usage
+
+---
+
+Instructions and examples for use:
+
+![demo](assets/images/demo.gif)
+
+## Tests
+
+---
+
+![GitHub license](https://img.shields.io/badge/tests-100%25-success)
+
+## Questions?
+
+![alt text](./public/assets/images/alex.png)
+
+Feel free to contact me for any question. Id be more then happy to help.
+
+[Github](https://github.com/aafernands)
+
+[Email address](https://github.com/alexfernands@outlook.com)
+
+## Summary
+
+Steps taken to complete this assigmnet:
+
+- Created a css file for each website page;
+- All links/buttons on this website works properly;
+- Some of the resources used on this projectwas:
+
+  [Bootstrap](https://getbootstrap.com/)<br />
+  [W3 Schools](https://www.w3schools.com/)<br />
+  [Express](https://www.npmjs.com/package/express)<br />
+  [Heroku](https://www.w3schools.com/)<br />
+
+- The final version was pushed to homework repository at
+  [github](Homework2_ResponsivePortifolio/aafernands.github.io/).
+  [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+
+## License
+
+Copyright 2020 Alex Fernandes
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
