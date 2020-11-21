@@ -6,7 +6,7 @@
 Deployed Aplication:
 [Note Taker App](https://my-note-takerapp.herokuapp.com/)
 
----
+
 
 | Table of Contents |
 | ----------------- |
@@ -16,17 +16,17 @@ Deployed Aplication:
 | [Questions](#Questions) |
 | [License](#License) |
 
----
+
 
 ## Project Description
 
----
+
 
 This application can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
 ## Usage
 
----
+
 
 Instructions and examples for use:
 
@@ -34,7 +34,7 @@ Instructions and examples for use:
 
 ## Tests
 
----
+
 
 ![GitHub license](https://img.shields.io/badge/tests-100%25-success)
 
