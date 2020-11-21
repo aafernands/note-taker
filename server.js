@@ -50,7 +50,32 @@ app.post("/api/notes", function (req, res) {
 		JSON.stringify(parseData)
 	);
 
-	res.json(newNote);
+	res.json(newNote); // send http status 200 with json data
+	// res.status(201).json(newNote); // set http status 201 (Created) and send json data
+});
+
+// match DELETE:
+// /api/notes/1234
+// /api/notes/4321
+app.delete("/api/notes/:id", function (req, res) {
+	const notes = fs.readFileSync(path.join(__dirname, "./data/db.json"));
+
+	console.log("DELETE ID", req.params.id);
+
+	const parseData = JSON.parse(notes);
+
+	const filteredData = parseData.filter(function (data) {
+		return data.id !== req.params.id;
+	});
+
+	console.log("Filtered result", filteredData);
+
+	fs.writeFileSync(
+		path.join(__dirname, "./data/db.json"),
+		JSON.stringify(filteredData)
+	);
+
+	res.sendStatus(200); // http status 200 Ok
 });
 
 // wild card
