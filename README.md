@@ -12,7 +12,6 @@ Deployed Aplication:
 | ----------------- |
 | [Usage](#Usage)   |
 | [Tests](#Tests)   |
-
 | [Summary](#Summary)
 | [Questions](#Questions) |
 | [License](#License) |
@@ -31,7 +30,7 @@ This application can be used to write, save, and delete notes. This application 
 
 Instructions and examples for use:
 
-![demo](assets/images/demo.gif)
+![demo](./public/assets/images/demo.gif)
 
 ## Tests
 
