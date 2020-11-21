@@ -8,13 +8,14 @@ Deployed Aplication:
 
 ---
 
-| Table of Contents             |
-| ----------------------------- |
-| [Usage](#Usage)               |
-| [Tests](#Tests)               |
-| [Questions](#Questions)       |
-| [Summary](#Summary)           |
-| [License](#License)           |
+| Table of Contents |
+| ----------------- |
+| [Usage](#Usage)   |
+| [Tests](#Tests)   |
+
+| [Summary](#Summary)
+| [Questions](#Questions) |
+| [License](#License) |
 
 ---
 
@@ -40,25 +41,21 @@ Instructions and examples for use:
 
 ## Summary
 
-Steps taken to complete this assigmnet:
+Steps taken to complete this assigment:
 
-- Frontend: 
-    - Previously created including all HTML sctructure and styling using bootstrap;
+- Frontend:
+  - Previously created including all HTML sctructure and styling using bootstrap;
 - Backend:
-    - Created HTML routes;
-    - A `data.json` file was created to store and retrieve notes using `fs` module;
-    - Created API routes (GET, POST abd DELETE);
+  - Created HTML routes;
+  - A `data.json` file was created to store and retrieve notes using `fs` module;
+  - Created API routes (GET, POST abd DELETE);
 - All links/buttons on this website works properly;
 - Some of the resources used on this project was:
 
-  > [Bootstrap](https://getbootstrap.com/)<br />
-  > [W3 Schools](https://www.w3schools.com/)<br />
-  > [Express](https://www.npmjs.com/package/express)<br />
-  > [Heroku](https://www.w3schools.com/)<br />
+> [Bootstrap](https://getbootstrap.com/)<br /> > [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br /> > [Heroku](https://www.w3schools.com/)<br />
 
-- The final version was pushed to homework repository at
-  [github](Homework2_ResponsivePortifolio/aafernands.github.io/).
-  [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+- The final version was pushed to homework repository at:
+> [github](https://github.com/aafernands)<br> > [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
 
 ## Questions?
 
