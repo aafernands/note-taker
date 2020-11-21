@@ -34,17 +34,23 @@ app.post("/api/notes", function (req, res) {
 	const notes = fs.readFileSync(path.join(__dirname, "./data/db.json"));
 
 	console.log("body", req.body);
+	const newNote = req.body;
+
+	// create id using unix timestamp
+	newNote.id = Date.now() + ""; // use + to convert number to string
 
 	const parseData = JSON.parse(notes);
 
-	parseData.push(req.body);
+	parseData.push(newNote);
+
+	console.log("New note", newNote);
 
 	fs.writeFileSync(
 		path.join(__dirname, "./data/db.json"),
 		JSON.stringify(parseData)
 	);
 
-	res.json(req.body);
+	res.json(newNote);
 });
 
 // wild card
