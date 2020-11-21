@@ -1,6 +1,7 @@
 // Dependencies
 const path = require("path");
 const express = require("express");
+const fs = require("fs");
 
 const app = express();
 
@@ -17,6 +18,14 @@ app.get("/", function (req, res) {
 
 app.get("/notes", function (req, res) {
 	res.sendFile(path.join(__dirname, "./notes.html"));
+});
+
+app.get("/api/notes", function (req, res) {
+	const notes = fs.readFileSync(path.join(__dirname, "./data/db.json"));
+
+	console.log(JSON.parse(notes));
+
+	res.json(JSON.parse(notes));
 });
 
 // wild card
