@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // expose the static  asset folder
-app.use(express.static("assets"));
+app.use(express.static("public"));
 
 // Routes
 app.get("/", function (req, res) {
@@ -21,9 +21,6 @@ app.get("/notes", function (req, res) {
 
 // wild card
 // match any url
-// will match:
-// "notesasdf"
-// "/mynotes"
 app.get("*", function (req, res) {
 	res.sendFile(path.join(__dirname, "./index.html"));
 });
