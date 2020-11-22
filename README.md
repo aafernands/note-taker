@@ -10,6 +10,7 @@ Deployed Aplication:
 | ----------------- |
 | [Usage](#Usage)   |
 | [Tests](#Tests)   |
+
 | [Summary](#Summary)
 | [Questions](#Questions) |
 | [License](#License) |
@@ -20,7 +21,7 @@ This application can be used to write, save, and delete notes. This application 
 
 ## Usage
 
-Instructions and examples for use:
+<br>
 
 ![demo](./public/assets/images/demo.gif)
 
@@ -30,7 +31,7 @@ Instructions and examples for use:
 
 ## Summary
 
-Steps taken to complete this assigment:
+Steps taken to develop this assigment:
 
 - Frontend:
   - Previously a HTML sctructure and CSS stylesheet was created;
@@ -45,7 +46,7 @@ Steps taken to complete this assigment:
 > [Bootstrap](https://getbootstrap.com/)<br /> [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br /> [Heroku](https://www.w3schools.com/)<br />
 
 - The final version was pushed to homework repository at:
-> [github](https://github.com/aafernands)<br> [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+  > [github](https://github.com/aafernands)<br> [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
 
 ## Questions?
 
