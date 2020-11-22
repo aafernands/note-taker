@@ -6,35 +6,26 @@
 Deployed Aplication:
 [Note Taker App](https://my-note-takerapp.herokuapp.com/)
 
-
-
 | Table of Contents |
 | ----------------- |
 | [Usage](#Usage)   |
 | [Tests](#Tests)   |
+
 | [Summary](#Summary)
 | [Questions](#Questions) |
 | [License](#License) |
 
-
-
 ## Project Description
-
-
 
 This application can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
 ## Usage
-
-
 
 Instructions and examples for use:
 
 ![demo](./public/assets/images/demo.gif)
 
 ## Tests
-
-
 
 ![GitHub license](https://img.shields.io/badge/tests-100%25-success)
 
@@ -48,13 +39,14 @@ Steps taken to complete this assigment:
   - Created HTML routes;
   - A `data.json` file was created to store and retrieve notes using `fs` module;
   - Created API routes (GET, POST abd DELETE);
+  - When a new note is created a ID is generated using unix timestamp `Date.now()` making each note ID unique;
 - All links/buttons on this website works properly;
 - Some of the resources used on this project was:
 
-> [Bootstrap](https://getbootstrap.com/)<br />  [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br />  [Heroku](https://www.w3schools.com/)<br />
+> [Bootstrap](https://getbootstrap.com/)<br /> [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br /> [Heroku](https://www.w3schools.com/)<br />
 
 - The final version was pushed to homework repository at:
-> [github](https://github.com/aafernands)<br>  [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+  > [github](https://github.com/aafernands)<br> [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
 
 ## Questions?
 
