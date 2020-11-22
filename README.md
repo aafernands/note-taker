@@ -34,12 +34,12 @@ Instructions and examples for use:
 Steps taken to complete this assigment:
 
 - Frontend:
-  - Previously created including all HTML sctructure and styling using bootstrap;
+  - Previously a HTML sctructure and CSS stylesheet was created;
 - Backend:
   - Created HTML routes;
   - A `data.json` file was created to store and retrieve notes using `fs` module;
-  - Created API routes (GET, POST abd DELETE);
-  - When a new note is created a ID is generated using unix timestamp `Date.now()` making each note ID unique;
+  - Created API routes (GET, POST and DELETE);
+  - When a new note is created an ID is generated using unix timestamp `Date.now()` making each note ID unique;
 - All links/buttons on this website works properly;
 - Some of the resources used on this project was:
 
@@ -52,7 +52,7 @@ Steps taken to complete this assigment:
 
 ![alt text](./public/assets/images/alex.png)
 
-Feel free to contact me for any question. Id be more then happy to help.
+Feel free to contact me for any question. I'd be more then happy to help.
 
 [Github](https://github.com/aafernands)
 
