@@ -10,7 +10,6 @@ Deployed Aplication:
 | ----------------- |
 | [Usage](#Usage)   |
 | [Tests](#Tests)   |
-
 | [Summary](#Summary)
 | [Questions](#Questions) |
 | [License](#License) |
@@ -46,7 +45,7 @@ Steps taken to complete this assigment:
 > [Bootstrap](https://getbootstrap.com/)<br /> [W3 Schools](https://www.w3schools.com/)<br /> [Express](https://www.npmjs.com/package/express)<br /> [Heroku](https://www.w3schools.com/)<br />
 
 - The final version was pushed to homework repository at:
-  > [github](https://github.com/aafernands)<br> [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
+> [github](https://github.com/aafernands)<br> [Heroku](https://dashboard.heroku.com/apps/my-note-takerapp)
 
 ## Questions?
 
