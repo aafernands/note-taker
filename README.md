@@ -10,7 +10,6 @@ Deployed Aplication:
 | ----------------- |
 | [Usage](#Usage)   |
 | [Tests](#Tests)   |
-
 | [Summary](#Summary)
 | [Questions](#Questions) |
 | [License](#License) |
